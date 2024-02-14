@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+    ">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <title>Document</title>
+</head>
+<body>
+    <section class="header" >
+        <nav>
+            <a href="index.html"><img src="images/logo.PNG" alt=""></a>
+<div class="nav-links" id="navLinks">
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="">Admin</a></li>
+        <li><a href="">Course</a></li>
+        <li><a href="">Librarian</a></li>
+        <li><a href="">student</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+    </ul>
+</div>
+</nav>
+
+ <i class="fa fa-bars" onclick="showMenu()"></i> 
+
+<div class="text-box">
+    <h1>RKI  e-patasala</h1>
+    <p>number 1 webiste class ygyugjyg hgiugui hfyufkugiu hfiygiu giugi uihui</p>
+    <a href=""class="hero-btn">Visit us to know more</a>
+</div>
+</section>
+<div class="scroll">
+  
+        <marquee  direction="left"> 
+            CURIOUSLY FUN CODING FOR KIDS AND COLLEGE STUDENTS LEARN CODING, AI, ROBOTICS, AND MORE WITH VIRTUAL SMALL - GROUP CLASSED LED BY INSTRUCTORS.
+            </marquee>
+</div>
+
+<div class="imagecontainer">
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="images/home4.avif" alt=""></div>
+          <div class="swiper-slide"><img src="images/home5.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="images/home3.avif" alt=""></div>
+          <div class="swiper-slide"><img src="images/home2.avif" alt=""></div>
+          <div class="swiper-slide"><img src="images/home1.jpg" alt=""></div>
+    
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+  const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  autoplay:{delay:2000,},
+  
+ 
+
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+
+//   swiper.autoplay.stop();
+//       const swiperContainer = document.getElementById("swiper");
+//       swiperContainer.addEventListener("mouseover", (e) => {
+//         swiper.autoplay.start();
+//       });
+//       swiperContainer.addEventListener("mouseout", () => {
+//         swiper.autoplay.stop();
+//       });
+    
+
+  </script>
+
+
+
+
+
+   
+
+
+</body>
+</html>

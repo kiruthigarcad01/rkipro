@@ -508,3 +508,65 @@ h3{
         font-size: medium;
     
     }
+/* 
+    ---studentpage--avatar */
+    
+
+    h2{
+        text-align: center;
+    }
+
+
+    input[type=text], input[type=password] {
+        display: block;
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block; 
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+
+    }
+
+    .log_button{
+        background-color: #04AA6D;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+    .log_button:hover{
+        opacity: 0.8;
+    }
+    .Canclebutton{
+        width: auto;
+        padding: 10px 18px;
+        background-color: #f44336;
+    }
+
+img.avatar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border-radius: 50%;
+}
+.container3{
+    padding: 16px;
+}
+span.psw{
+    float: right;
+    padding-top: 16px;
+}
+
+
+
+
+
+
+
+
+
+
